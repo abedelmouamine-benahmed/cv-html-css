@@ -1,0 +1,75 @@
+img{
+    clip-path: ellipse(60% 60%);
+}
+@keyframes slideInleft {
+    from{
+      transform: translateX(0px);  
+    }
+    
+    to{transform: translateX(300px);}
+}
+h1{
+    color: rgb(0, 0, 0);
+    animation-name: slideInleft ;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0.2s;
+    animation-iteration-count: 1s;
+    animation-duration: normal;
+    animation-fill-mode: both;
+    
+    /*animation: name duration timing-function delay iteration-count direction fill-mode;*/
+
+}
+body{   
+    /*.TitrePRINCIPAL{}*/
+        background-color: rgb(81, 73, 45) ;
+        background: linear-gradient(90deg,rgb(249, 241, 6)1%,rgb(252, 132, 11)50%,rgb(237, 6, 245) 100%);
+        background-size: auto;
+        color: #9c1212;
+        background-size: 300% 300%;
+        animation: gradient 5s ease-out infinite;
+        padding: 25px 0;
+        top: 10px; left: 100px; right: 100px;
+        
+}
+  @keyframes gradient{
+  0%{background-position:0 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0 50%}
+  }
+   
+  h2{
+    color: rgb(0, 0, 0);
+}
+
+h3{
+    color: rgba(0, 0, 0, 0.677);
+}
+p{color: rgb(0, 0, 0);
+
+}
+
+section{
+    color: white
+}
+/*.footer {
+    background: linear-gradient(90deg,rgba(0,158,222,1) 0%,rgba(120,184,45,1) 100%);
+    background-size: auto;
+    color: #d12a2a;
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    padding: 25px 0;
+  }
+  @keyframes gradient{
+  0%{background-position:0 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0 50%}
+  }*/
+.image1{
+       position: absolute; 
+       left: 400px ; top:  400px;
+    }
+    
+    
+}
