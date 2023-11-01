@@ -1,4 +1,5 @@
-DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="fr"> 
     
     <head><!--Conteneur pour tout ce qu'on veut inclure dans une page HTML qui n'est pas du contenu à afficher à l'écran, par exemple description ...-->
@@ -14,35 +15,35 @@ DOCTYPE html>
    
     <body> <!--Contenue visible-->
         <div class="container">
-            <section class="TitrePRINCIPAL">
-           
-                <h1>Abedelmouamine Ben-ahmed</h1> <!--TITRE principal c'est la plus grosse police--> 
+            <section class="TitrePRINCIPAL centre_section" >
+                
+                <h1 id="Prenom">Abedelmouamine Ben-ahmed</h1> <!--TITRE principal c'est la plus grosse police--> 
         
             </section>
         
-            <section class="SousTitreBachelor">
+            <section class="SousTitreBachelor centre_section">
                    
-                <h3>Etudiant en bachelor IT B1</h3> <!--Titre plus petit que h2-->
+                <span><h3>Etudiant en bachelor IT B1</h3></span> <!--Titre plus petit que h2-->
                     
             </section>
                
-            <section class="Information"> 
+            <section class="Information centre_section"> 
             
-                <h2>Informations</h2><Titre>
+                <h2>Informations</h2>
                     <p>0783705192</p>
                     <p>abedelmouamine.ben-ahmed@laplateforme.io</p>
                     <p>7 place paul cézanne, 13006 Marseille </p>
                
             </section>
                 
-            <section class="Objectif"> 
+            <section class="Objectif centre_section"> 
             
                 <h2>Objectif professionnel</h2>
-                    <p>Mon objectif professionnel sur le moyen terme serait d'acquerir le plus de compétence en lien avec la sécurité et les nouvelles technologies en général, en cumulant de l'experiences techniques mais aussi humaines. </p> 
+                    <p>Mon objectif professionnel sur le moyen terme serait d'acquerir le plus de compétence en lien avec la sécurité et les nouvelles technologies en général, en cumulant de l'experiences techniques mais aussi humaines.</p> 
         
             </section>
                         
-            <section class="Pro">
+            <section class="Pro centre_section">
             
                 <h2>Expériences Professionnelles</h2>   
                     <h3>2020-2023</h3>
@@ -54,7 +55,7 @@ DOCTYPE html>
         
             </section>
                 
-            <section class="Etudes">   
+            <section class="Etudes centre_section">   
             
                 <h2>Etudes</h2>
                     <h3>2023-2024</h3>    
@@ -66,7 +67,7 @@ DOCTYPE html>
                
             </section>    
         
-            <section class="Compétence"><!--nouvelle section-->
+            <section class="Compétence centre_section"><!--nouvelle section-->
             
                 <h2>Mes compétences</h2>
                     <ul><!--balise pour liste à puces ( liste non ordonnée)-->
@@ -79,19 +80,14 @@ DOCTYPE html>
             
             </section>
         </div>            
-        <figure class="image1">
-            
-            <img src="gif cool.gif" alt="image dynamique" height="250" width="250">         
-       
-        </figure>
+        
 </body>
 
 <footer><!--pied de page, géneralement Mentions Légales, formulaire ...-->
-    
-    <a href= "https://github.com/abedelmouamine-benahmed/">Mon lien github</a><!--<a> est une balise, href est son attribut pour l'hyperlien-->
-    <a href= "MonCv.pdf" download="CV_abedelmouamine_benhamed">Télechargez le CV</a>
-
+    <section class="Git-CV">
+    <a href= "https://github.com/abedelmouamine-benahmed/" class="Github">Mon lien github</a><!--<a> est une balise, href est son attribut pour l'hyperlien-->
+    <a href= "MonCv.pdf" download="CV_abedelmouamine_benhamed" class="CV">Télechargez le CV</a>
+    </section>
 </footer> 
 
 </html>
-
